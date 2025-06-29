@@ -28,6 +28,7 @@ background-clip: padding-box, border-box;
    animation-name: example;
    animation-duration: 1s;
    animation-iteration-count: infinite;
+    animation-timing-function:linear;
 }
 @keyframes example {
  0%   { background-position: 0% 50%, 0% 50%; }
